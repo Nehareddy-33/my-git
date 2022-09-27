@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my form</title>
+    <style>
+        fieldset{
+            border:5px solid black;
+            border-radius:16px;
+            padding:10px;
+            width:700px;
+            line-height:1.0;
+            margin:20px 50px 20px;
+        }
+        .button{
+            font-size: 20px;
+            background-color:yellow;
+            border-radius:8px;
+            color:brown;
+            border:3px solid yellowgreen;
+            transition-duration: 0.4s;
+             width:fit-content;
+             height:fit-content;
+        }
+        .button:hover {
+         background-color:yellowgreen;
+         border: 3px solid yellow;
+          color:brown;
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+    } 
+    body{
+            background-image: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=600');
+            background-size:cover;
+        }
+    
+
+               
+    </style>
+</head>
+<body align="center">
+    <div class="background">
+        <div class="transparent">
+    <form action="" method =post>
+    <fieldset align="center">
+        <legend><font size =10 color = red align="center">login form</font>
+    </legend>
+        <label for="name" ><font size =5 color="blue" >Full name:</font></label>
+        <input type="text" name="u1" id="name" placeholder="enter your name" required ><br><br>
+        <label for="user"><font size =5 color="blue">Username:</font></label>
+        <input type="text" name="u2" id="user" placeholder="enter your username"><br><br>
+        <label for="pwd"><font size =5 color="blue">password:</font> </label>
+        <input type="password" name="u3" id="pwd" placeholder="enter your pasword"><br><br>
+        <input type="checkbox" name="u4" id="c1">
+        <label for="c1" >Forgot Password?</label><br><br>
+        <button class="button">login</button>
+        
+    </fieldset>
+</form>
+</div>
+</div>
+</body>
+</html>
